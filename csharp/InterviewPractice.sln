@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{15E2353A-28EF-4FC8-8DBB-DBE7131A3B23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0C6F410E-CD15-4F36-AA47-36245502A513}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{12010E1B-D3ED-43D6-85E5-84FA1E4325BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "src\common\Algorithm\Algorithm.csproj", "{C523C120-CD47-486A-935B-8941D596590C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmTests.cs", "test\AlgorithmTests.cs\AlgorithmTests.cs.csproj", "{C4E8647B-C664-4570-9A4A-DF879344E04D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C523C120-CD47-486A-935B-8941D596590C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C523C120-CD47-486A-935B-8941D596590C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C523C120-CD47-486A-935B-8941D596590C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C523C120-CD47-486A-935B-8941D596590C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E8647B-C664-4570-9A4A-DF879344E04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E8647B-C664-4570-9A4A-DF879344E04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E8647B-C664-4570-9A4A-DF879344E04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E8647B-C664-4570-9A4A-DF879344E04D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12010E1B-D3ED-43D6-85E5-84FA1E4325BA} = {15E2353A-28EF-4FC8-8DBB-DBE7131A3B23}
+		{C523C120-CD47-486A-935B-8941D596590C} = {12010E1B-D3ED-43D6-85E5-84FA1E4325BA}
+		{C4E8647B-C664-4570-9A4A-DF879344E04D} = {0C6F410E-CD15-4F36-AA47-36245502A513}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9930C59B-2D9D-4BED-825D-AD441803C806}
+	EndGlobalSection
+EndGlobal
